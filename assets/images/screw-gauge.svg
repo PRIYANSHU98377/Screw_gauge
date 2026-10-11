@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomy of a micrometer screw gauge</title>
+  <desc id="desc">Illustrated side elevation of a micrometer with its stationary anvil, moving spindle, C-frame, main scale, thimble, and knurled ratchet labeled.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7edf8"/><stop offset=".48" stop-color="#bdcbe0"/><stop offset="1" stop-color="#8694ac"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7f9fd"/><stop offset=".35" stop-color="#acb9cc"/><stop offset=".52" stop-color="#f8faff"/><stop offset=".83" stop-color="#a5b2c6"/><stop offset="1" stop-color="#f2f4f8"/></linearGradient>
+    <linearGradient id="barrel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e9eef7"/><stop offset=".5" stop-color="#a9b7cb"/><stop offset=".72" stop-color="#f4f6fa"/><stop offset="1" stop-color="#95a3b8"/></linearGradient>
+    <pattern id="knurl" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(42)"><path d="M0 0v9M5 0v9" stroke="#62728a" stroke-opacity=".7" stroke-width="2"/><path d="M2 0v9" stroke="#fff" stroke-opacity=".4" stroke-width="2"/></pattern>
+    <filter id="shadow" x="-15%" y="-15%" width="135%" height="145%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#304361" flood-opacity=".15"/></filter>
+  </defs>
+  <ellipse cx="390" cy="334" rx="323" ry="12" fill="#314562" opacity=".08"/>
+  <g stroke="#74839a" stroke-linejoin="round" filter="url(#shadow)">
+    <path fill="url(#frame)" stroke-width="3" d="M443 100H177q-24 0-30 27l-25 110q-28 125 112 125h117q109 0 109-123l-18-88q-6-25 18-29z"/>
+    <path fill="#f8fafd" stroke="#a8b3c4" stroke-width="2" d="M415 121H188q-16 0-20 19l-23 99q-23 104 90 104h97q88 0 89-101l-16-81q-5-20 13-27z"/>
+    <path d="M163 139V247" stroke="url(#steel)" stroke-width="19" stroke-linecap="round"/>
+    <path fill="url(#steel)" stroke-width="1.5" d="M159 176h245v33H159zm0 49h245v26H159z"/>
+    <path fill="url(#steel)" stroke-width="2" d="M188 175h26v79h-26z"/>
+    <path fill="url(#barrel)" stroke-width="2" d="M380 126h53v144h-53z"/>
+    <rect x="432" y="139" width="162" height="113" rx="13" fill="url(#barrel)" stroke-width="2"/>
+    <path fill="#f8f9fc" stroke="#aab5c5" d="M434 179h151v39H434z"/>
+    <path d="M436 199h144" fill="none" stroke="#dc755d" stroke-width="2"/>
+    <path d="M447 181v9m26-9v5m26-5v9m26-9v5m26-5v9m26-9v5m-130 26v-9m26 9v-5m26 5v-9m26 9v-5m26 5v-9m26 9v-5" fill="none" stroke="#627088" stroke-width="1.2"/>
+    <rect x="579" y="145" width="93" height="101" rx="13" fill="#596880" stroke="#46546b" stroke-width="2"/>
+    <rect x="587" y="152" width="76" height="87" rx="9" fill="url(#knurl)" stroke="#d1d9e5" stroke-width="2"/>
+    <path d="M660 163h44v64h-44z" fill="url(#steel)" stroke-width="2"/>
+    <rect x="697" y="177" width="33" height="37" rx="12" fill="url(#steel)" stroke-width="2"/>
+    <circle cx="341" cy="282" r="15" fill="url(#frame)" stroke-width="2"/>
+    <path d="M341 269v-12" stroke="#65738a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="#536178" font-family="Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+    <text x="163" y="155">ANVIL</text>
+    <text x="224" y="291">SPINDLE</text>
+    <text x="337" y="108">FRAME</text>
+    <text x="352" y="190">MAIN SCALE</text>
+    <text x="513" y="112">THIMBLE</text>
+    <text x="515" y="286">CIRCULAR SCALE</text>
+    <text x="628" y="286">RATCHET</text>
+    <text x="340" y="316">LOCK NUT</text>
+  </g>
+  <g fill="none" stroke="#909db0" stroke-width="1.1">
+    <path d="M163 159v-15m65 134v-14m109-143v-11m15 77V124m161 50v-51m0 167v-30m115-4v-41M340 320v-22"/>
+  </g>
+</svg>
